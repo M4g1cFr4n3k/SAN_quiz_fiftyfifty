@@ -20,7 +20,8 @@ public class Question
 
         Console.WriteLine();
         Console.ForegroundColor = ConsoleColor.Yellow;
-        Console.Write(" Naciśnij 1, 2, 3 lub 4 aby wybrać odpowiedź ... ");
+        Console.WriteLine(" Naciśnij 1, 2, 3 lub 4 aby wybrać odpowiedź ... ");
+        
         Console.ForegroundColor = ConsoleColor.White;
     }
 

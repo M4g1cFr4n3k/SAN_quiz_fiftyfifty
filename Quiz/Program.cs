@@ -18,6 +18,12 @@ while (true)
 
     // Wyświetlanie aktualnego pytania graczowi
     game.CurrentQuestion.Display();
+    if (game.isFiftyFiftyUsed == false)
+    {
+        Console.ForegroundColor = ConsoleColor.Green;
+        Console.WriteLine("Wcisnij 0, aby uzyc kola 50/50");
+        Console.ForegroundColor = ConsoleColor.White;
+    }
 
     // Pobranie numeru odpowiedzi od gracza
     var userNumber = Console.ReadLine();
